@@ -1,0 +1,65 @@
+
+
+
+
+#design {
+
+}
+
+#design h2 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: #000;
+	line-height: ;
+	letter-spacing: ;
+	font-weight: 700;
+	text-align: center;
+	max-width: ;
+	margin-bottom: 1em;
+}
+
+#design .box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 100%;
+	max-width: ;
+}
+
+#design .txt-box {
+	width: 45%;
+	margin-bottom: 30px;
+}
+
+#design .txt-box h3 {
+	font-size: 2rem;
+	border-bottom: 2px solid #bbb;
+	color: #000;
+	margin: 0 0 .5em 0;
+	padding-bottom: .25em;
+}
+
+#design .txt-box p {
+	font-size: 1rem;
+	margin-bottom: .5em;
+}
+
+#design .txt-box.lt {
+	text-align: left;
+}
+
+#design .txt-box.rt h3,
+#design .txt-box.rt p {
+	text-align: right;	
+}
+
+@media screen and (max-width:767px) {
+	
+	#design .txt-box {
+		width: 100%;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+}
